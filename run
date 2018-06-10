@@ -1,0 +1,1 @@
+docker run --restart=always --detach -i -p 45633:45633 -p 45601:45601 -v /export/video:/export/video:ro -v /home/say/airvideo/AirVideoServer:/home/airvideo/AirVideoServer airvideo
